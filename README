@@ -1,0 +1,7 @@
+项目运行在Tomcat-9.0.7上
+运行时浏览器输入localhost:8080 或 localhost:8080/wordLadder 或 localhost:8080/login, 都会重定向到localhost:8080/login 要求输入用户名和密码。
+正确的用户名为flh
+正确的密码为123456
+验证成功后会重定向到localhost:8080/wordLadder, 因为没有加入参数所以出现404。
+加上参数例如：http://localhost:8080/wordLadder?start=dog&end=god
+会显示wordLadder，和logout按钮以退出登陆状态
