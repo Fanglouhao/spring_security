@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringSecurityRoleBasedLoginExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SpringSecurityRoleBasedLoginExample.war">
+      <element id="artifact" artifact-name="SpringSecurityRoleBasedLoginExample:war exploded" />
+    </root>
+  </artifact>
+</component>
